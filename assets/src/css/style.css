@@ -70,6 +70,7 @@ header .logo h1 {
     color: var(--color-secondary-dark);
     font-size: 25px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .loading {
@@ -94,7 +95,7 @@ header .logo h1 {
 
 .loading img {
     display: block;
-    width: 150px;
+    width: 175px;
 }
 
 .loading h2 {
@@ -102,8 +103,9 @@ header .logo h1 {
     font-size: 25px;
     font-weight: 500;
     letter-spacing: 1px;
-    margin-top: 5px;
-    margin-bottom: 25px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 @keyframes next {
@@ -128,11 +130,6 @@ header .logo h1 {
     font-weight: 400;
     animation: next 1.5s infinite;
     animation-timing-function: ease-in-out;
-}
-
-.loading p:hover,
-.loading p:active {
-    color: var(--color-span-light);
 }
 
 .navbar {
@@ -384,7 +381,7 @@ footer p {
 .container-profil {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .container-profil img {
@@ -439,7 +436,7 @@ footer p {
 footer {
     width: 100%;
     background-color: var(--footer-color);
-    box-shadow: 0 0 15px var(--color-shadow);
+    box-shadow: 0 0 25px var(--color-shadow);
     padding: 50px;
 }
 
