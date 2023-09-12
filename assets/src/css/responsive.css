@@ -1,0 +1,277 @@
+/* M. Revanza Yuzar */
+
+@media (max-width: 1080px) {
+
+    .container-01 {
+        width: 95%;
+    }
+
+}
+
+
+
+@media (max-width: 900px) {
+
+    header {
+        padding: 5px 10px;
+    }
+
+    header .logo img {
+        margin-right: 10px;
+    }
+
+    .navbar {
+        width: 60%;
+    }
+
+    .hero-content {
+        justify-content: space-around;
+    }
+
+    .container-tentang {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-tentang img {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .container-pendidikan {
+        flex-direction: column-reverse;
+    }
+
+    .container-pendidikan img {
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .container-kontak iframe {
+        width: 600px;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .hero-content img {
+        width: 275px;
+    }
+
+    .hero-content .text h2.nama {
+        font-size: 33px;
+    }
+
+    .container-judul h2 {
+        font-size: 25px;
+    }
+
+    .container-profil {
+        justify-content: space-around;
+    }
+
+    .container-kontak iframe {
+        width: 500px;
+        height: 1111px;
+    }
+
+    footer {
+        padding: 50px 25px;
+    }
+
+}
+
+
+
+@media (max-width: 700px) {
+
+    .navbar {
+        flex-direction: column;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+        width: 50%;
+        background-color: var(--color-primary);
+        overflow-y: auto;
+        padding-top: 60px;
+        transform: translateX(100%);
+        transition: transform 0.4s ease-out;
+    }
+
+    .navbar-active {
+        transform: translateX(0);
+        transition: transform 0.4s ease-out;
+    }
+
+    .navbar a {
+        margin-bottom: 50px;
+    }
+
+    .button-menu,
+    .button-close {
+        display: block;
+    }
+
+    .button-menu {
+        z-index: 2;
+    }
+
+    .button-close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .button-active {
+        transform: scale(1);
+        transition: transform 0.4s ease-out;
+    }
+
+    .button-hidden {
+        transform: scale(0);
+        transition: transform 0.4s ease-out;
+    }
+
+    .container-profil {
+        flex-direction: column;
+    }
+
+    .container-profil img {
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+@media (max-width: 650px) {
+
+    .hero-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero-content img {
+        margin-bottom: 15px;
+    }
+
+    .container-deskripsi .data {
+        flex-direction: column;
+    }
+
+    .container-kontak iframe {
+        width: 400px;
+        height: 1150px;
+    }
+
+}
+
+
+
+@media (max-width: 500px) {
+
+    .container-01 {
+        padding: 75px 10px;
+    }
+
+    .container-kontak iframe {
+        width: 350px;
+        height: 1225px;
+    }
+
+    footer {
+        padding: 50px 10px;
+    }
+
+    .footer-content {
+        justify-content: space-around;
+    }
+
+}
+
+
+
+@media (max-width: 425px) {
+
+    header .logo h1 {
+        font-size: 22px;
+    }
+
+    .hero-content .text h2.nama {
+        font-size: 30px;
+    }
+
+    .hero-content .text h2.status {
+        font-size: 16px;
+    }
+
+    .container-nama h3 {
+        font-size: 18px;
+    }
+
+    .container-kontak iframe {
+        width: 320px;
+        height: 1250px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content .left,
+    .footer-content .right {
+        width: max-content;
+        text-align: center;
+    }
+
+    .footer-content .left {
+        margin-bottom: 25px;
+    }
+
+    .footer-content .left-content,
+    .footer-content .right-content {
+        align-items: center;
+    }
+
+}
+
+
+
+@media (max-width: 375px) {
+
+    .container-kontak iframe {
+        width: 300px;
+        height: 1340px;
+    }
+
+}
+
+
+
+@media (max-width: 350px) {
+
+    .hero-content .text h2.nama {
+        font-size: 28px;
+    }
+
+    .container-tentang img {
+        width: 275px;
+    }
+
+    .container-profil .text {
+        padding: 25px 10px;
+    }
+
+    .container-kontak iframe {
+        width: 266px;
+        height: 1340px;
+    }
+
+}
