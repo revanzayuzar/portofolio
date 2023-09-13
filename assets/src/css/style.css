@@ -63,7 +63,6 @@ header .logo img {
     display: block;
     width: 50px;
     filter: invert(1);
-    margin-right: 25px;
 }
 
 header .logo h1 {
@@ -71,6 +70,7 @@ header .logo h1 {
     font-size: 25px;
     font-weight: 600;
     text-transform: uppercase;
+    margin-left: 25px;
 }
 
 .loading {
@@ -87,6 +87,7 @@ header .logo h1 {
     bottom: 0;
     z-index: 10;
     background-color: var(--color-secondary-dark);
+    padding-bottom: 55px;
 }
 
 .finish-loading {
@@ -95,17 +96,16 @@ header .logo h1 {
 
 .loading img {
     display: block;
-    width: 175px;
+    width: 150px;
 }
 
 .loading h2 {
     color: var(--color-primary-light);
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin-top: 5px;
 }
 
 @keyframes next {
@@ -310,7 +310,7 @@ footer p {
 .my-link a {
     display: block;
     color: var(--color-primary);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     padding: 10px 25px;
 }
