@@ -130,12 +130,12 @@
 
     .button-active {
         transform: scale(1);
-        transition: transform 0.4s ease-out;
+        transition: transform 0.3s ease-out;
     }
 
     .button-hidden {
         transform: scale(0);
-        transition: transform 0.4s ease-out;
+        transition: transform 0.3s ease-out;
     }
 
     .container-profil {
