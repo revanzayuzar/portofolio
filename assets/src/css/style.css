@@ -21,6 +21,9 @@
     --color-shadow: black;
     --color-important: rgb(0, 175, 250);
 
+    --white: white;
+    --black: black;
+
     --header-color: rgba(225, 225, 225, 1);
     --footer-color: var(--color-secondary-dark);
 }
@@ -52,6 +55,8 @@ header {
     z-index: 1;
     background-color: var(--header-color);
     padding: 5px 25px;
+    border-bottom: 1.5px solid var(--white);
+    box-shadow: 0 0 15px var(--color-shadow);
 }
 
 header .logo {
@@ -88,6 +93,7 @@ header .logo h1 {
     z-index: 10;
     background-color: var(--color-secondary-dark);
     padding-bottom: 55px;
+    border: 10px solid var(--color-primary-light);
 }
 
 .finish-loading {
@@ -95,14 +101,13 @@ header .logo h1 {
 }
 
 .loading img {
-    display: block;
     width: 150px;
 }
 
 .loading h2 {
     color: var(--color-primary-light);
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 300;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-top: 5px;
@@ -127,7 +132,7 @@ header .logo h1 {
     bottom: 30px;
     color: var(--color-important);
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
     animation: next 1.5s infinite;
     animation-timing-function: ease-in-out;
 }
@@ -143,10 +148,12 @@ header .logo h1 {
     color: var(--color-secondary-dark);
     font-size: 16px;
     font-weight: 500;
+    transition: all 0.25s ease-out;
 }
 
 .navbar a:hover {
-    color: var(--color-secondary-light);
+    color: var(--color-important);
+    transition: all 0.25s ease-out;
 }
 
 .navbar a::after {
@@ -215,7 +222,7 @@ header .logo h1 {
 
 .hero-content .text h2.nama {
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 600;
     text-shadow: 0 0 10px var(--color-shadow), 0 0 10px var(--color-shadow), 0 0 10px var(--color-shadow), 0 0 10px var(--color-shadow);
 }
 
@@ -269,7 +276,7 @@ header .logo h1 {
     box-shadow: 0 10px 20px var(--color-shadow);
     margin-right: 25px;
     border: 10px solid var(--color-secondary-light);
-    border-radius: 5px;
+    border-radius: 10px;
     transition: all 0.25s ease-out;
 }
 
